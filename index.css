@@ -1,0 +1,32 @@
+body {
+    background: fixed;
+    background-image: linear-gradient(#f7770ea6, yellow);
+}
+
+.flex-container{
+    display:flex;
+    height: 100vh;
+    /* width: 2vh; */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.flex-container-card{
+    display:flex;
+    height: 30rem;
+    width: 40rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bg-light{
+    background-color: rgb(247, 193, 76) !important;
+}
+
+.card{
+    border-radius: 20px;
+}
+h5.navbar{
+    color:blueviolet ;
+}
+

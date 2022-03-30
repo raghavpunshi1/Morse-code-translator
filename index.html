@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Translator</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="flex-container container">
+
+
+
+        <div class="card flex-container-card" style="width: 18rem;">
+            <div style="color: rgb(202, 172, 116); margin: 10px;">
+                <h2><b>Eng to Morse</b></h2>
+            </div>
+            <div class="card-body wrapper">
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <form>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Type in English....." name="inEnglish" id="engtext"></textarea>
+                    </div><br>
+                    <button type="submit" class="btn btn-outline-primary" id="etombutton">Translate</button>
+                </form><br>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder=""  disabled id="tanslatedetom"></textarea>
+                </div><br>
+            </div>
+        </div>
+
+
+
+        <div class="card flex-container-card" style="width: 18rem;">
+            <div style="color: rgb(202, 172, 116); margin: 10px;">
+                <h2><b>Morse to Eng</b></h2>
+            </div>
+            <div class="card-body">
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <form>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Morse here....." id="morsetext"></textarea>
+                    </div><br>
+                    <button type="submit" id="mtoebutton" class="btn btn-outline-primary" >Translate</button>
+                </form><br>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="" disabled id="translatedmtoe"></textarea>
+                </div><br>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="index1.js"></script>
+</body>
+
+</html>
