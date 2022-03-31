@@ -114,30 +114,6 @@ document.getElementById("mtoebutton").addEventListener('click', (e) => {
     let teststr = "";
     console.log(str);
     console.log(str.length);
-    // for (let i = 0; i < str.length; i++) {
-    //     // console.log("str[i]= ",str[i]);
-    //     if (str[i] == " " && str[i+1]!='/'){
-    //         console.log("word space");
-    //     }
-    //     if(str[i]==' ' && str[i+1]=='/'){
-    //         continue;
-    //     }
-    //     if(str[i]=="/"){
-    //         teststr+=" ";
-    //         text+=objmtoe[teststr];
-    //         teststr="";
-    //         // console.log(text);
-    //     }
-    //     else{
-    //         teststr+=str[i];
-    //     }
-    //     console.log("teststr= ",teststr);
-    //     console.log("text= ",text);
-
-    //     console.log("---------");
-        
-
-    // }
 
     const myarr=str.split(" / ");
     console.log(myarr);
